@@ -38,7 +38,7 @@ const Navbar = () => {
         <Link href="/">
           <a>
             <img
-              src="/assets/logoNishan.png"
+              src="assets/logoNishan.png"
               alt="/"
               height={70}
               width={80}
@@ -98,7 +98,7 @@ const Navbar = () => {
               <Link href="/">
                 <a>
                   <img
-                    src="/assets/logoNishan.png"
+                    src="assets/logoNishan.png"
                     height={70}
                     width={80}
                     alt="/"

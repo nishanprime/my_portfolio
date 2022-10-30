@@ -33,7 +33,7 @@ const resume = () => {
         </div>
         <div className="hidden md:block overflow-scroll ">
           <img
-            src="/assets/resume-image.png"
+            src="assets/resume-image.png"
             alt="resume image"
             width={940}
             height={1200}

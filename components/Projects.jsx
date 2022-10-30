@@ -12,13 +12,13 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Event Simplify"
-            backgroundImg="/assets/projects/event-simplify.png"
+            backgroundImg="assets/projects/event-simplify.png"
             projectUrl="/event-simplify"
             tech="NEXT JS | Node JS | MongoDB"
           />
           <ProjectItem
             title="MindSetts"
-            backgroundImg="/assets/projects/mindsetts_cover.png"
+            backgroundImg="assets/projects/mindsetts_cover.png"
             projectUrl="/mindsetts"
             tech="React JS | Node JS | MongoDB"
           />

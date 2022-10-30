@@ -2,20 +2,20 @@ import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const crypto = () => {
+const MindSetts = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
+        <div
+          className="absolute top-0 left-0 w-full h-[50vh]"
+          style={{
+            backgroundImage: 'url(assets/projects/mindsetts_banner.png)',
+            backgroundSize: 'cover',
+          }}
+        ></div>
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
-        <img
-          className="absolute z-1"
-          layout="fill"
-          objectFit="contain"
-          src="/assets/projects/mindsetts_banner.png"
-          alt="/"
-        />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Crypto App</h2>
+          <h2 className="py-2">MindSetts</h2>
           <h3>React JS / MongoDB / NodeJS</h3>
         </div>
       </div>
@@ -82,4 +82,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default MindSetts;

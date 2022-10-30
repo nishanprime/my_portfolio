@@ -61,7 +61,7 @@ const Main = () => {
         </div>
         <div className="hidden lg:block justify-right p-8 shadow-xl shadow-gray-500 border-8 rounded-xl hover:scale-110 ease-in duration-300">
           <img
-            src="/assets/user_pp.png"
+            src="assets/user_pp.png"
             alt="nishan thapa picture"
             width={300}
           />
