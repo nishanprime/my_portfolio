@@ -1,10 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
-import eventSimplifyImg from '../public/assets/projects/event-simplify.png';
-import mindsettsImg from '../public/assets/projects/mindsetts_cover.png';
-import netflixImg from '../public/assets/projects/netflix.jpg';
-import twitchImg from '../public/assets/projects/twitch.jpg';
 import ProjectItem from './ProjectItem';
 import PeronalProject from './PeronalProject';
 const Projects = () => {
@@ -18,13 +12,13 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Event Simplify"
-            backgroundImg={eventSimplifyImg}
+            backgroundImg="/assets/projects/event-simplify.png"
             projectUrl="/event-simplify"
             tech="NEXT JS | Node JS | MongoDB"
           />
           <ProjectItem
             title="MindSetts"
-            backgroundImg={mindsettsImg}
+            backgroundImg="/assets/projects/mindsetts_cover.png"
             projectUrl="/mindsetts"
             tech="React JS | Node JS | MongoDB"
           />

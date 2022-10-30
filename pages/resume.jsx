@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import Image from 'next/image';
 import { FaDownload } from 'react-icons/fa';
 
 const resume = () => {
@@ -33,7 +32,7 @@ const resume = () => {
           </div>
         </div>
         <div className="hidden md:block overflow-scroll ">
-          <Image
+          <img
             src="/assets/resume-image.png"
             alt="resume image"
             width={940}

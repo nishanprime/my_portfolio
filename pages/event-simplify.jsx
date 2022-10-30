@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import React from 'react';
-import eventSimplifyImg from '../public/assets/projects/event-simplify-banner.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -9,11 +7,11 @@ const property = () => {
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/80 z-10" />
-        <Image
+        <img
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={eventSimplifyImg}
+          src="/assets/projects/event-simplify-banner.png"
           quality={100}
           alt="/"
         />
