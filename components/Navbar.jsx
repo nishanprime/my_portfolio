@@ -142,7 +142,7 @@ const Navbar = () => {
               </Link>
               <a
                 className="md:hidden"
-                href="/assets/nishan-thapa-resume.pdf"
+                href="assets/nishan-thapa-resume.pdf"
                 target={'_blank'}
               >
                 <li onClick={() => setNav(false)} className="py-4 text-sm">

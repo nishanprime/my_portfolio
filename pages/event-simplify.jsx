@@ -1,9 +1,19 @@
 import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import Head from 'next/head';
+
 const EventSimplify = () => {
   return (
     <div className="w-full">
+      <Head>
+        <title>EventSimplify</title>
+        <meta
+          name="description"
+          content="Eventsimplify is a event automation platform. It is a platform where event organizers can create their event and invite their guests. It has a dashboard for event organizers to manage their event."
+        />
+        <link rel="icon" href="/fav.png" />
+      </Head>
       <div className="w-screen h-[50vh] relative">
         <div
           className="absolute top-0 left-0 w-full h-[50vh]"

@@ -1,10 +1,19 @@
 import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const MindSetts = () => {
   return (
     <div className="w-full">
+      <Head>
+        <title>MindSetts</title>
+        <meta
+          name="description"
+          content="Mindsetts is a client and therapist matching platform. It is a platform where therapists can create their profile and clients can find the right therapist for them."
+        />
+        <link rel="icon" href="/fav.png" />
+      </Head>
       <div className="w-screen h-[50vh] relative">
         <div
           className="absolute top-0 left-0 w-full h-[50vh]"

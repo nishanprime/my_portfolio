@@ -20,7 +20,7 @@ const resume = () => {
           <div className="flex mb-4">
             <h2 className="text-center">Resume</h2>
             <a
-              href="/assets/nishan-thapa-resume.pdf"
+              href="assets/nishan-thapa-resume.pdf"
               target="_blank"
               className="ml-10"
               onClick={() => {
@@ -41,7 +41,7 @@ const resume = () => {
           />
         </div>
         <div className="md:hidden">
-          <a href="/assets/nishan-thapa-resume.pdf" target="_blank">
+          <a href="assets/nishan-thapa-resume.pdf" target="_blank">
             <div className="text-center">
               <h1>Download</h1>
             </div>
