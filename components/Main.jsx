@@ -52,11 +52,20 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="/resume">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
+            <div className="hidden md:block">
+              <Link href="/resume">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <BsFillPersonLinesFill />
+                </div>
+              </Link>
+            </div>
+            <div className="md:hidden">
+              <a href="assets/nishan-thapa-resume.pdf" target={'_blank'}>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <BsFillPersonLinesFill />
+                </div>
+              </a>
+            </div>
           </div>
         </div>
         <div className="hidden lg:block justify-right p-8 shadow-xl shadow-gray-500 border-8 rounded-xl hover:scale-110 ease-in duration-300">
