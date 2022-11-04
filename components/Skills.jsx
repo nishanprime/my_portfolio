@@ -31,11 +31,7 @@ const skillsInfo = [
     imgLink:
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
   },
-  {
-    skillName: 'HTML',
-    imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
-  },
+
   {
     skillName: 'BASH',
     imgLink:
@@ -50,6 +46,21 @@ const skillsInfo = [
     skillName: 'ExpressJS',
     imgLink:
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg',
+  },
+  {
+    skillName: 'MongoDB',
+    imgLink:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+  },
+  {
+    skillName: 'TailwindCSS',
+    imgLink:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg',
+  },
+  {
+    skillName: 'Bootstrap',
+    imgLink:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg',
   },
   {
     skillName: 'NextJS',
