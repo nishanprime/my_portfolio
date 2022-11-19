@@ -5,7 +5,7 @@ import Main from '../components/Main';
 import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
-
+// done now pushin to github
 export default function Home() {
   return (
     <div>
