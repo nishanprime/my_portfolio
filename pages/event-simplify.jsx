@@ -1,7 +1,7 @@
-import React from 'react';
-import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
-import Head from 'next/head';
+import React from "react";
+import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
+import Head from "next/head";
 
 const EventSimplify = () => {
   return (
@@ -12,14 +12,14 @@ const EventSimplify = () => {
           name="description"
           content="Eventsimplify is a event automation platform. It is a platform where event organizers can create their event and invite their guests. It has a dashboard for event organizers to manage their event."
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/assets/logoNishan.png" />
       </Head>
       <div className="w-screen h-[50vh] relative">
         <div
           className="absolute top-0 left-0 w-full h-[50vh]"
           style={{
-            backgroundImage: 'url(assets/projects/event-simplify-banner.png)',
-            backgroundSize: 'cover',
+            backgroundImage: "url(assets/projects/event-simplify-banner.png)",
+            backgroundSize: "cover",
           }}
         ></div>
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
@@ -68,6 +68,9 @@ const EventSimplify = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> MongoDB
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> AntD | TailwindCSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Google API

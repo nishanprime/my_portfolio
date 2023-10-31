@@ -32,7 +32,7 @@ const Contact = () => {
                   me and let&apos;s talk.
                 </p>
                 <p className="!text-red-400 !font-bold">
-                  Note: Looking for COOP Position for Spring/Summer 2022
+                  Note: Looking for COOP/Intership Position for Spring/Summer 2024
                 </p>
               </div>
               <div>
@@ -76,7 +76,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                action="https://getform.io/f/93a4f305-5626-472a-a43e-2bf8654289df"
+                action="https://getform.io/f/150731d5-2843-4735-b922-a776612f2b28"
                 method="POST"
                 encType="multipart/form-data"
               >

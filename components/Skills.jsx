@@ -1,96 +1,123 @@
-import React from 'react';
-import SkillCard from './SkillCard';
+import React from "react";
+import SkillCard from "./SkillCard";
 const skillsInfo = [
   {
-    skillName: 'HTML',
+    skillName: "HTML",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   },
   {
-    skillName: 'JAVASCRIPT',
+    skillName: "JAVASCRIPT",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
-    skillName: 'TYPESCRIPT',
+    skillName: "TYPESCRIPT",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
   {
-    skillName: 'PYTHON',
+    skillName: "REACT.JS",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
   {
-    skillName: 'C',
+    skillName: "Express.JS",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
-  },
-  {
-    skillName: 'CSS',
-    imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
   },
 
   {
-    skillName: 'BASH',
+    skillName: "POSTGRESQL",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
   },
   {
-    skillName: 'NodeJS',
+    skillName: "GraphQL",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
   },
   {
-    skillName: 'ExpressJS',
+    skillName: "DevOps",
+    imgLink: "/assets/devops.png",
+  },
+
+  {
+    skillName: "PYTHON",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
   {
-    skillName: 'MongoDB',
+    skillName: "C",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
   },
   {
-    skillName: 'TailwindCSS',
+    skillName: "CSS",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+
+  {
+    skillName: "BASH",
+    imgLink:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
   },
   {
-    skillName: 'Bootstrap',
+    skillName: "NodeJS",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+  },
+
+  {
+    skillName: "MongoDB",
+    imgLink:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   },
   {
-    skillName: 'NextJS',
+    skillName: "TailwindCSS",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg",
   },
   {
-    skillName: 'Docker',
+    skillName: "Bootstrap",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
   },
   {
-    skillName: 'Redux',
+    skillName: "NextJS",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   },
   {
-    skillName: 'GIT',
+    skillName: "Docker",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   },
   {
-    skillName: 'DigitalOcean',
+    skillName: "Redux",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
   },
   {
-    skillName: 'VSCode',
+    skillName: "GIT",
     imgLink:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    skillName: "DigitalOcean",
+    imgLink:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
+  },
+  {
+    skillName: "Azure",
+    imgLink:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+  },
+  {
+    skillName: "VSCode",
+    imgLink:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
   },
 ];
 const Skills = () => {

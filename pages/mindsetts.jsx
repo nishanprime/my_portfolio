@@ -12,7 +12,7 @@ const MindSetts = () => {
           name="description"
           content="Mindsetts is a client and therapist matching platform. It is a platform where therapists can create their profile and clients can find the right therapist for them."
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon"  href="/assets/logoNishan.png" />
       </Head>
       <div className="w-screen h-[50vh] relative">
         <div

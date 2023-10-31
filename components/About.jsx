@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -11,27 +11,30 @@ const About = () => {
           </p>
           <h2 className="sm:text-center mb-5 md:py-4">Who I am</h2>
           <p className="sm:text-center mb-5 md:py-2 text-gray-600">
-            I am CS major and Finance Minor at Drexel University, graduating in
-            2025. I am also one of the 12 recipients worldwide to receive{' '}
+            Hello there! I'm a Computer Science major with a Finance minor at
+            Drexel University, poised to graduate in 2025. Among my
+            achievements? I'm one of a select 12 individuals worldwide graced
+            with the{" "}
             <span className="!text-red-500 !font-bold">
               Drexel Global Scholarship
             </span>
-            , full ride scholarship to study at Drexel University. I am a Full
-            Stack Engineer with a passion for building web applications and
-            mobile application.
+            a full ride through my Drexel journey.{" "}
           </p>
           <p className="sm:text-center mb-5 md:py-2 text-gray-600">
-            I started my programming journey since I was 14 years old, in 2014.
-            I dived deep into full stack application development since 2019,
-            getting my hands on multiple programming languages, databases, and
-            different development stacks. I worked as Full Stack developer at WP
-            Agency to build web applications on ReactJS and NodeJS. I am
-            currently working on a personal project called EventSimplify (demo
-            link in project section).
+            My love affair with programming began at 14, and by 2019, I was
+            deeply entrenched in full-stack development. At{" "}
+            <span className=" text-red-500">ECFMG</span>, I played a key role in
+            enhancing product security and performance. Currently, I wear
+            multiple hats at{" "}
+            <span className=" text-red-500">
+              JumboTaxes: Senior Developer, DevOps, and Project Manager
+            </span>
+            . Under my watch, JumboTaxes transformed into a commercial
+            juggernaut.
           </p>
           <Link href="/#projects">
             <p className="sm:text-center mb-5 md:py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my latest projects.
+              Check out some of my latest work.
             </p>
           </Link>
         </div>

@@ -1,7 +1,7 @@
-import React from 'react';
-import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { FaDownload } from 'react-icons/fa';
+import React from "react";
+import Head from "next/head";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 
 const resume = () => {
   return (
@@ -12,7 +12,7 @@ const resume = () => {
           name="description"
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/assets/logoNishan.png" />
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
@@ -24,10 +24,10 @@ const resume = () => {
               target="_blank"
               className="ml-10"
               onClick={() => {
-                console.log('DOwnload');
+                console.log("DOwnload");
               }}
             >
-              <FaDownload size={'2rem'} />
+              <FaDownload size={"2rem"} />
             </a>
           </div>
         </div>
