@@ -11,9 +11,9 @@ const About = () => {
           </p>
           <h2 className="sm:text-center mb-5 md:py-4">Who I am</h2>
           <p className="sm:text-center mb-5 md:py-2 text-gray-600">
-            Hello there! I'm a Computer Science major with a Finance minor at
+            Hello there! I&apos;m a Computer Science major with a Finance minor at
             Drexel University, poised to graduate in 2025. Among my
-            achievements? I'm one of a select 12 individuals worldwide graced
+            achievements? I&apos;m one of a select 12 individuals worldwide graced
             with the{" "}
             <span className="!text-red-500 !font-bold">
               Drexel Global Scholarship

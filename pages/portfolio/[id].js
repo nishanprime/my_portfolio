@@ -1,7 +1,7 @@
-import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import axios from 'axios';
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import axios from "axios";
 const username = ({ data }) => {
   // if (!data) {
   //   console.log('Loading');
@@ -11,20 +11,17 @@ const username = ({ data }) => {
     <div className="h-screen">
       <h1>hi</h1>
       <div
-        // style={{
-        //   height: '80%',
-        //   overflow: 'scroll',
-        // }}
+     
         className="h-1/5 overflow-scroll"
       >
         <ul>
-          {data.map((eachData) => (
-            <li>
+          {data.map((eachData, index) => (
+            <li key={index}>
               <a
                 href={`/portfolio/${eachData.id}`}
                 style={{
-                  color: 'blue',
-                  marginTop: '100px',
+                  color: "blue",
+                  marginTop: "100px",
                 }}
               >
                 <h1 className="text-blue">{eachData.id}</h1>
@@ -42,7 +39,7 @@ const username = ({ data }) => {
 // };
 export async function getStaticProps({ params }) {
   const { data } = await axios.get(
-    'https://jsonplaceholder.typicode.com/todos'
+    "https://jsonplaceholder.typicode.com/todos"
   );
   return {
     props: { data },
@@ -53,11 +50,11 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: { id: 'id' } },
-      { params: { id: 'nishan' } },
-      { params: { id: 'bishal' } },
+      { params: { id: "id" } },
+      { params: { id: "nishan" } },
+      { params: { id: "bishal" } },
     ],
-    fallback: 'blocking',
+    fallback: "blocking",
   };
 }
 // export const getStaticPaths = async () => {
